@@ -210,7 +210,7 @@ def analyze(host):
         clean_results['SSL/TLS Analysis'] = ssl_analysis
 
 
-        # Print the cleaned results
+        # Print the raw results
         print(COLOR_BLUE + '\nRaw Scan Results for Scan ID:', COLOR_CYAN + str(scan_id) + Style.RESET_ALL)
         print('Grade:', COLOR_CYAN + grade + Style.RESET_ALL, ', Score:', COLOR_CYAN + str(score) + Style.RESET_ALL)
         print('Test Results:')
